@@ -1,0 +1,1095 @@
+<html lang='zh-CN'>
+        <head >
+        <meta charset='UTF-8'/>
+<meta name='viewport' content='width=device-width, initial-scale=1.0'/>
+<title >抖音小火人形象定制 - 专业设计服务</title>
+<script src='https://res.gemcoder.com/js/reload.js'></script>
+<script src='https://cdn.tailwindcss.com'></script>
+<link href='https://cdn.bootcdn.net/ajax/libs/font-awesome/6.4.0/css/all.min.css' rel='stylesheet'/>
+<script >tailwind.config = {
+  theme: {
+    extend: {
+      colors: {
+        primary: '#FF4E50',
+        // 抖音红色作为主色调
+        secondary: '#000000',
+        // 小米风格黑色
+        accent: '#FFD700',
+        // 金色作为强调色
+        light: '#F5F5F5',
+        // 浅灰色背景
+        dark: '#333333' // 深灰色文本
+      },
+      fontFamily: {
+        sans: ['Inter', 'system-ui', 'sans-serif']
+      },
+      spacing: {
+        '128': '32rem'
+      }
+    }
+  }
+};</script>
+<style type='text/tailwindcss'>
+        @layer utilities {
+            .content-auto {
+                content-visibility: auto;
+            }
+            .text-shadow {
+                text-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            }
+            .transition-transform-opacity {
+                transition-property: transform, opacity;
+            }
+            .bg-gradient-brand {
+                background: linear-gradient(135deg, #FF4E50 0%, #FF7173 100%);
+            }
+        }
+    </style>
+    </head>
+<body class='font-sans bg-light text-dark antialiased'>
+        <!-- [MODULE] a3f_页面容器 -->
+<div class='min-h-screen flex flex-col'>
+        <!-- [MODULE] b7d_导航栏 -->
+<header class='fixed w-full top-0 z-50 transition-all duration-300' id='navbar'>
+        <div class='container mx-auto px-4 sm:px-6 lg:px-8'>
+        <div class='flex justify-between items-center py-4'>
+        <!-- [MODULE] c2e_导航栏:Logo -->
+<div class='flex items-center'>
+        <a href='javascript:void(0);' class='flex items-center'>
+        <div class='w-10 h-10 rounded-full bg-primary flex items-center justify-center text-white mr-3'>
+        <i class='fas fa-fire text-xl'>
+        </i>
+    </div>
+<span class='text-xl font-bold tracking-tight'>
+        小火人定制
+    </span>
+    </a>
+    </div>
+<!-- [/MODULE] c2e_导航栏:Logo -- 包含网站Logo和名称 -->
+<!-- [MODULE] d9k_导航栏:桌面端菜单 -->
+<nav class='hidden md:flex space-x-8'>
+        <a href='javascript:void(0);' class='text-dark hover:text-primary transition-colors font-medium'>
+        首页
+    </a>
+<a href='javascript:void(0);' class='text-dark hover:text-primary transition-colors font-medium'>
+        服务
+    </a>
+<a href='javascript:void(0);' class='text-dark hover:text-primary transition-colors font-medium'>
+        案例展示
+    </a>
+<a href='javascript:void(0);' class='text-dark hover:text-primary transition-colors font-medium'>
+        关于我们
+    </a>
+<a href='javascript:void(0);' class='text-dark hover:text-primary transition-colors font-medium'>
+        联系我们
+    </a>
+    </nav>
+<!-- [/MODULE] d9k_导航栏:桌面端菜单 -- 包含首页、服务、案例展示、关于我们、联系我们导航链接 -->
+<!-- [MODULE] e4g_导航栏:操作按钮 -->
+<div class='flex items-center space-x-4'>
+        <a href='javascript:void(0);' class='hidden md:block px-5 py-2 rounded-full border border-primary text-primary hover:bg-primary hover:text-white transition-all duration-300 font-medium'>
+        免费咨询
+    </a>
+<button id='mobile-menu-button' class='md:hidden text-dark hover:text-primary'>
+        <i class='fas fa-bars text-xl'>
+        </i>
+    </button>
+    </div>
+<!-- [/MODULE] e4g_导航栏:操作按钮 -- 包含免费咨询按钮和移动端菜单按钮 -->
+    </div>
+    </div>
+<!-- [MODULE] f6h_导航栏:移动端菜单 -->
+<div id='mobile-menu' class='md:hidden hidden bg-white shadow-lg absolute w-full'>
+        <div class='container mx-auto px-4 py-3 space-y-3'>
+        <a href='javascript:void(0);' class='block py-2 text-dark hover:text-primary transition-colors font-medium'>
+        首页
+    </a>
+<a href='javascript:void(0);' class='block py-2 text-dark hover:text-primary transition-colors font-medium'>
+        服务
+    </a>
+<a href='javascript:void(0);' class='block py-2 text-dark hover:text-primary transition-colors font-medium'>
+        案例展示
+    </a>
+<a href='javascript:void(0);' class='block py-2 text-dark hover:text-primary transition-colors font-medium'>
+        关于我们
+    </a>
+<a href='javascript:void(0);' class='block py-2 text-dark hover:text-primary transition-colors font-medium'>
+        联系我们
+    </a>
+<a href='javascript:void(0);' class='block py-2 mt-2 rounded-full border border-primary text-primary hover:bg-primary hover:text-white transition-all duration-300 font-medium text-center'>
+        免费咨询
+    </a>
+    </div>
+    </div>
+<!-- [/MODULE] f6h_导航栏:移动端菜单 -- 移动端显示的导航菜单，包含首页、服务、案例展示、关于我们、联系我们导航链接和免费咨询按钮 -->
+    </header>
+<!-- [/MODULE] b7d_导航栏 -- 网站顶部导航栏，包含Logo、导航菜单和操作按钮 -->
+<!-- [MODULE] g1j_主内容区域 -->
+<main class='flex-grow'>
+        <!-- [MODULE] h2k_首页:英雄区域 -->
+<section class='pt-32 pb-20 md:pt-40 md:pb-28 bg-gradient-to-b from-white to-gray-50'>
+        <div class='container mx-auto px-4 sm:px-6 lg:px-8'>
+        <div class='flex flex-col md:flex-row items-center'>
+        <div class='md:w-1/2 mb-10 md:mb-0'>
+        <h1 class='text-[clamp(2rem,5vw,3.5rem)] font-bold leading-tight mb-6'>
+        专业
+<span class='text-primary'>
+        抖音小火人
+    </span>
+<br />
+形象定制服务
+    </h1>
+<p class='text-lg text-gray-600 mb-8 max-w-lg'>
+        打造专属抖音小火人形象，提升品牌辨识度，让您的内容在众多创作者中脱颖而出，吸引更多粉丝关注。
+    </p>
+<div class='flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4'>
+        <a href='javascript:void(0);' class='px-8 py-3 rounded-full bg-primary text-white hover:bg-opacity-90 transition-all duration-300 font-medium text-center shadow-lg hover:shadow-xl transform hover:-translate-y-1'>
+        立即定制
+    </a>
+<a href='javascript:void(0);' class='px-8 py-3 rounded-full border border-gray-300 text-dark hover:border-primary hover:text-primary transition-all duration-300 font-medium text-center'>
+        查看案例
+<i class='fas fa-arrow-right ml-2'>
+        </i>
+    </a>
+    </div>
+<div class='mt-10 flex items-center'>
+        <div class='flex -space-x-2'>
+        <img src='https://design.gemcoder.com/staticResource/echoAiSystemImages/c037ef76682006191e68e1db27eeaca2.png' alt='客户头像' class='w-10 h-10 rounded-full border-2 border-white'/>
+<img src='https://design.gemcoder.com/staticResource/echoAiSystemImages/c037ef76682006191e68e1db27eeaca2.png' alt='客户头像' class='w-10 h-10 rounded-full border-2 border-white'/>
+<img src='https://design.gemcoder.com/staticResource/echoAiSystemImages/c037ef76682006191e68e1db27eeaca2.png' alt='客户头像' class='w-10 h-10 rounded-full border-2 border-white'/>
+<img src='https://design.gemcoder.com/staticResource/echoAiSystemImages/c037ef76682006191e68e1db27eeaca2.png' alt='客户头像' class='w-10 h-10 rounded-full border-2 border-white'/>
+    </div>
+<div class='ml-4'>
+        <div class='flex items-center'>
+        <div class='flex'>
+        <i class='fas fa-star text-yellow-400'>
+        </i>
+<i class='fas fa-star text-yellow-400'>
+        </i>
+<i class='fas fa-star text-yellow-400'>
+        </i>
+<i class='fas fa-star text-yellow-400'>
+        </i>
+<i class='fas fa-star-half-alt text-yellow-400'>
+        </i>
+    </div>
+<span class='ml-2 font-medium'>
+        4.9/5
+    </span>
+    </div>
+<p class='text-sm text-gray-500'>
+        来自200+满意客户
+    </p>
+    </div>
+    </div>
+    </div>
+<div class='md:w-1/2 relative'>
+        <div class='relative z-10 rounded-2xl overflow-hidden shadow-2xl transform rotate-2 hover:rotate-0 transition-transform duration-500'>
+        <img src='https://design.gemcoder.com/staticResource/echoAiSystemImages/53b56e678a867b9236f84918c0118de8.png' alt='抖音小火人形象展示' class='w-full h-auto'/>
+    </div>
+<div class='absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full h-full bg-primary/20 rounded-full filter blur-3xl -z-10'>
+        </div>
+<div class='absolute -bottom-6 -left-6 bg-white p-4 rounded-xl shadow-lg'>
+        <div class='flex items-center'>
+        <div class='w-12 h-12 rounded-full bg-green-100 flex items-center justify-center text-green-500 mr-3'>
+        <i class='fas fa-rocket text-xl'>
+        </i>
+    </div>
+<div >
+        <p class='font-bold'>
+        快速交付
+    </p>
+<p class='text-sm text-gray-500'>
+        3-5个工作日
+    </p>
+    </div>
+    </div>
+    </div>
+<div class='absolute -top-6 -right-6 bg-white p-4 rounded-xl shadow-lg'>
+        <div class='flex items-center'>
+        <div class='w-12 h-12 rounded-full bg-blue-100 flex items-center justify-center text-blue-500 mr-3'>
+        <i class='fas fa-paint-brush text-xl'>
+        </i>
+    </div>
+<div >
+        <p class='font-bold'>
+        原创设计
+    </p>
+<p class='text-sm text-gray-500'>
+        100%专属定制
+    </p>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </section>
+<!-- [/MODULE] h2k_首页:英雄区域 -- 包含主标题、副标题、立即定制和查看案例按钮、客户评价信息以及主要形象展示图 -->
+<!-- [MODULE] i3l_首页:品牌客户 -->
+<section class='py-12 bg-white'>
+        <div class='container mx-auto px-4 sm:px-6 lg:px-8'>
+        <p class='text-center text-gray-500 mb-8'>
+        受到众多品牌信赖
+    </p>
+<div class='flex flex-wrap justify-center items-center gap-8 md:gap-16 opacity-70'>
+        <div class='text-2xl font-bold text-gray-300'>
+        品牌A
+    </div>
+<div class='text-2xl font-bold text-gray-300'>
+        品牌B
+    </div>
+<div class='text-2xl font-bold text-gray-300'>
+        品牌C
+    </div>
+<div class='text-2xl font-bold text-gray-300'>
+        品牌D
+    </div>
+<div class='text-2xl font-bold text-gray-300'>
+        品牌E
+    </div>
+    </div>
+    </div>
+    </section>
+<!-- [/MODULE] i3l_首页:品牌客户 -- 展示合作品牌客户的标志 -->
+<!-- [MODULE] j4m_首页:服务介绍 -->
+<section class='py-20 bg-gray-50'>
+        <div class='container mx-auto px-4 sm:px-6 lg:px-8'>
+        <div class='text-center max-w-3xl mx-auto mb-16'>
+        <h2 class='text-[clamp(1.5rem,3vw,2.5rem)] font-bold mb-4'>
+        我们的专业服务
+    </h2>
+<p class='text-lg text-gray-600'>
+        提供全方位的抖音小火人形象定制服务，从概念设计到最终交付，全程专业团队一对一服务
+    </p>
+    </div>
+<div class='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8'>
+        <!-- 服务卡片1 -->
+<div class='bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow duration-300 transform hover:-translate-y-2 transition-transform'>
+        <div class='w-16 h-16 rounded-2xl bg-primary/10 flex items-center justify-center text-primary text-2xl mb-6'>
+        <i class='fas fa-pencil-ruler'>
+        </i>
+    </div>
+<h3 class='text-xl font-bold mb-3'>
+        形象设计
+    </h3>
+<p class='text-gray-600 mb-6'>
+        根据您的品牌特性和需求，设计独特的抖音小火人形象，包含多种风格和姿势选择。
+    </p>
+<ul class='space-y-3 mb-6'>
+        <li class='flex items-center'>
+        <i class='fas fa-check text-green-500 mr-2'>
+        </i>
+<span >
+        原创角色设计
+    </span>
+    </li>
+<li class='flex items-center'>
+        <i class='fas fa-check text-green-500 mr-2'>
+        </i>
+<span >
+        多种风格方案
+    </span>
+    </li>
+<li class='flex items-center'>
+        <i class='fas fa-check text-green-500 mr-2'>
+        </i>
+<span >
+        细节调整优化
+    </span>
+    </li>
+    </ul>
+<a href='javascript:void(0);' class='text-primary font-medium inline-flex items-center hover:underline'>
+        了解更多
+<i class='fas fa-arrow-right ml-2'>
+        </i>
+    </a>
+    </div>
+<!-- 服务卡片2 -->
+<div class='bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow duration-300 transform hover:-translate-y-2 transition-transform'>
+        <div class='w-16 h-16 rounded-2xl bg-blue-100 flex items-center justify-center text-blue-500 text-2xl mb-6'>
+        <i class='fas fa-animation'>
+        </i>
+    </div>
+<h3 class='text-xl font-bold mb-3'>
+        动态表情包
+    </h3>
+<p class='text-gray-600 mb-6'>
+        为您的小火人形象制作一系列动态表情包，增强互动性，提升品牌传播效果。
+    </p>
+<ul class='space-y-3 mb-6'>
+        <li class='flex items-center'>
+        <i class='fas fa-check text-green-500 mr-2'>
+        </i>
+<span >
+        15-20个动态表情
+    </span>
+    </li>
+<li class='flex items-center'>
+        <i class='fas fa-check text-green-500 mr-2'>
+        </i>
+<span >
+        抖音平台适配
+    </span>
+    </li>
+<li class='flex items-center'>
+        <i class='fas fa-check text-green-500 mr-2'>
+        </i>
+<span >
+        高清透明背景
+    </span>
+    </li>
+    </ul>
+<a href='javascript:void(0);' class='text-primary font-medium inline-flex items-center hover:underline'>
+        了解更多
+<i class='fas fa-arrow-right ml-2'>
+        </i>
+    </a>
+    </div>
+<!-- 服务卡片3 -->
+<div class='bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow duration-300 transform hover:-translate-y-2 transition-transform'>
+        <div class='w-16 h-16 rounded-2xl bg-purple-100 flex items-center justify-center text-purple-500 text-2xl mb-6'>
+        <i class='fas fa-video'>
+        </i>
+    </div>
+<h3 class='text-xl font-bold mb-3'>
+        动画短片
+    </h3>
+<p class='text-gray-600 mb-6'>
+        制作小火人形象的动画短片，用于品牌宣传、开场视频或抖音内容创作。
+    </p>
+<ul class='space-y-3 mb-6'>
+        <li class='flex items-center'>
+        <i class='fas fa-check text-green-500 mr-2'>
+        </i>
+<span >
+        15-60秒动画
+    </span>
+    </li>
+<li class='flex items-center'>
+        <i class='fas fa-check text-green-500 mr-2'>
+        </i>
+<span >
+        分镜脚本设计
+    </span>
+    </li>
+<li class='flex items-center'>
+        <i class='fas fa-check text-green-500 mr-2'>
+        </i>
+<span >
+        背景音乐选配
+    </span>
+    </li>
+    </ul>
+<a href='javascript:void(0);' class='text-primary font-medium inline-flex items-center hover:underline'>
+        了解更多
+<i class='fas fa-arrow-right ml-2'>
+        </i>
+    </a>
+    </div>
+    </div>
+    </div>
+    </section>
+<!-- [/MODULE] j4m_首页:服务介绍 -- 展示三大核心服务：形象设计、动态表情包和动画短片，每个服务包含图标、标题、描述、服务内容列表和了解更多链接 -->
+<!-- [MODULE] k5n_首页:定制流程 -->
+<section class='py-20 bg-white'>
+        <div class='container mx-auto px-4 sm:px-6 lg:px-8'>
+        <div class='text-center max-w-3xl mx-auto mb-16'>
+        <h2 class='text-[clamp(1.5rem,3vw,2.5rem)] font-bold mb-4'>
+        简单四步，拥有专属小火人
+    </h2>
+<p class='text-lg text-gray-600'>
+        我们简化了定制流程，让您轻松获得专业的抖音小火人形象
+    </p>
+    </div>
+<div class='relative'>
+        <!-- 连接线 -->
+<div class='hidden md:block absolute top-1/2 left-0 w-full h-1 bg-gray-200 -translate-y-1/2 z-0'>
+        </div>
+<div class='grid grid-cols-1 md:grid-cols-4 gap-8 relative z-10'>
+        <!-- 步骤1 -->
+<div class='text-center'>
+        <div class='w-20 h-20 rounded-full bg-primary text-white flex items-center justify-center text-2xl font-bold mx-auto mb-6 shadow-lg'>
+        1
+    </div>
+<h3 class='text-xl font-bold mb-3'>
+        需求沟通
+    </h3>
+<p class='text-gray-600'>
+        告诉我们您的品牌特点、喜好风格和具体需求，我们的设计师将与您深入沟通。
+    </p>
+    </div>
+<!-- 步骤2 -->
+<div class='text-center'>
+        <div class='w-20 h-20 rounded-full bg-gray-100 text-dark flex items-center justify-center text-2xl font-bold mx-auto mb-6 shadow-lg'>
+        2
+    </div>
+<h3 class='text-xl font-bold mb-3'>
+        方案设计
+    </h3>
+<p class='text-gray-600'>
+        根据沟通结果，我们提供2-3套设计方案供您选择，包含不同风格和元素组合。
+    </p>
+    </div>
+<!-- 步骤3 -->
+<div class='text-center'>
+        <div class='w-20 h-20 rounded-full bg-gray-100 text-dark flex items-center justify-center text-2xl font-bold mx-auto mb-6 shadow-lg'>
+        3
+    </div>
+<h3 class='text-xl font-bold mb-3'>
+        修改完善
+    </h3>
+<p class='text-gray-600'>
+        根据您的反馈进行调整优化，直到您完全满意，确保最终效果符合预期。
+    </p>
+    </div>
+<!-- 步骤4 -->
+<div class='text-center'>
+        <div class='w-20 h-20 rounded-full bg-gray-100 text-dark flex items-center justify-center text-2xl font-bold mx-auto mb-6 shadow-lg'>
+        4
+    </div>
+<h3 class='text-xl font-bold mb-3'>
+        交付使用
+    </h3>
+<p class='text-gray-600'>
+        提供全套源文件和使用指南，您可以立即将小火人形象应用到各种场景中。
+    </p>
+    </div>
+    </div>
+    </div>
+<div class='text-center mt-16'>
+        <a href='javascript:void(0);' class='inline-block px-8 py-3 rounded-full bg-primary text-white hover:bg-opacity-90 transition-all duration-300 font-medium shadow-lg hover:shadow-xl transform hover:-translate-y-1'>
+        开始定制
+<i class='fas fa-arrow-right ml-2'>
+        </i>
+    </a>
+    </div>
+    </div>
+    </section>
+<!-- [/MODULE] k5n_首页:定制流程 -- 展示定制小火人的四个步骤：需求沟通、方案设计、修改完善和交付使用，包含步骤编号、标题、描述和开始定制按钮 -->
+<!-- [MODULE] l6o_首页:案例展示 -->
+<section class='py-20 bg-gray-50'>
+        <div class='container mx-auto px-4 sm:px-6 lg:px-8'>
+        <div class='flex flex-col md:flex-row md:items-end justify-between mb-16'>
+        <div >
+        <h2 class='text-[clamp(1.5rem,3vw,2.5rem)] font-bold mb-4'>
+        成功案例展示
+    </h2>
+<p class='text-lg text-gray-600 max-w-2xl'>
+        我们已经为众多品牌打造了专属的抖音小火人形象，以下是部分精选案例
+    </p>
+    </div>
+<div class='mt-6 md:mt-0'>
+        <a href='javascript:void(0);' class='inline-flex items-center text-primary font-medium hover:underline'>
+        查看全部案例
+<i class='fas fa-arrow-right ml-2'>
+        </i>
+    </a>
+    </div>
+    </div>
+<div class='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8'>
+        <!-- 案例1 -->
+<div class='bg-white rounded-2xl overflow-hidden shadow-lg group hover:shadow-xl transition-all duration-300'>
+        <div class='relative overflow-hidden'>
+        <img src='https://design.gemcoder.com/staticResource/echoAiSystemImages/f4f9d7899961503a22f4cb0edca259ec.png' alt='科技品牌小火人案例' class='w-full h-64 object-cover transition-transform duration-500 group-hover:scale-110'/>
+<div class='absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end'>
+        <div class='p-6 text-white'>
+        <h4 class='text-xl font-bold'>
+        科技品牌小火人
+    </h4>
+<p class='text-sm text-gray-200'>
+        为科技公司设计的未来感小火人形象
+    </p>
+    </div>
+    </div>
+    </div>
+<div class='p-6'>
+        <div class='flex justify-between items-center mb-3'>
+        <h3 class='text-xl font-bold'>
+        科技先锋
+    </h3>
+<span class='px-3 py-1 bg-blue-100 text-blue-600 rounded-full text-sm'>
+        科技
+    </span>
+    </div>
+<p class='text-gray-600 mb-4'>
+        结合未来科技感与活力元素，打造具有识别度的品牌形象。
+    </p>
+<a href='javascript:void(0);' class='text-primary font-medium inline-flex items-center hover:underline'>
+        查看详情
+<i class='fas fa-arrow-right ml-2'>
+        </i>
+    </a>
+    </div>
+    </div>
+<!-- 案例2 -->
+<div class='bg-white rounded-2xl overflow-hidden shadow-lg group hover:shadow-xl transition-all duration-300'>
+        <div class='relative overflow-hidden'>
+        <img src='https://design.gemcoder.com/staticResource/echoAiSystemImages/237f05928c5c771158a5fc2a6a180219.png' alt='美食品牌小火人案例' class='w-full h-64 object-cover transition-transform duration-500 group-hover:scale-110'/>
+<div class='absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end'>
+        <div class='p-6 text-white'>
+        <h4 class='text-xl font-bold'>
+        美食品牌小火人
+    </h4>
+<p class='text-sm text-gray-200'>
+        为餐饮品牌设计的可爱风格小火人形象
+    </p>
+    </div>
+    </div>
+    </div>
+<div class='p-6'>
+        <div class='flex justify-between items-center mb-3'>
+        <h3 class='text-xl font-bold'>
+        美食达人
+    </h3>
+<span class='px-3 py-1 bg-orange-100 text-orange-600 rounded-full text-sm'>
+        餐饮
+    </span>
+    </div>
+<p class='text-gray-600 mb-4'>
+        温暖可爱的形象设计，传递美食的热情与美味。
+    </p>
+<a href='javascript:void(0);' class='text-primary font-medium inline-flex items-center hover:underline'>
+        查看详情
+<i class='fas fa-arrow-right ml-2'>
+        </i>
+    </a>
+    </div>
+    </div>
+<!-- 案例3 -->
+<div class='bg-white rounded-2xl overflow-hidden shadow-lg group hover:shadow-xl transition-all duration-300'>
+        <div class='relative overflow-hidden'>
+        <img src='https://design.gemcoder.com/staticResource/echoAiSystemImages/54883017ae3275dfe748ae2c6f210bca.png' alt='健身品牌小火人案例' class='w-full h-64 object-cover transition-transform duration-500 group-hover:scale-110'/>
+<div class='absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end'>
+        <div class='p-6 text-white'>
+        <h4 class='text-xl font-bold'>
+        健身品牌小火人
+    </h4>
+<p class='text-sm text-gray-200'>
+        为健身品牌设计的活力四射小火人形象
+    </p>
+    </div>
+    </div>
+    </div>
+<div class='p-6'>
+        <div class='flex justify-between items-center mb-3'>
+        <h3 class='text-xl font-bold'>
+        活力健身
+    </h3>
+<span class='px-3 py-1 bg-green-100 text-green-600 rounded-full text-sm'>
+        健身
+    </span>
+    </div>
+<p class='text-gray-600 mb-4'>
+        充满力量感的设计，展现运动活力与健康生活理念。
+    </p>
+<a href='javascript:void(0);' class='text-primary font-medium inline-flex items-center hover:underline'>
+        查看详情
+<i class='fas fa-arrow-right ml-2'>
+        </i>
+    </a>
+    </div>
+    </div>
+    </div>
+    </div>
+    </section>
+<!-- [/MODULE] l6o_首页:案例展示 -- 展示三个不同行业的小火人定制案例，每个案例包含图片、标题、行业标签、描述和查看详情链接 -->
+<!-- [MODULE] m7p_首页:客户评价 -->
+<section class='py-20 bg-white'>
+        <div class='container mx-auto px-4 sm:px-6 lg:px-8'>
+        <div class='text-center max-w-3xl mx-auto mb-16'>
+        <h2 class='text-[clamp(1.5rem,3vw,2.5rem)] font-bold mb-4'>
+        客户对我们的评价
+    </h2>
+<p class='text-lg text-gray-600'>
+        听听我们的客户怎么说，他们的满意是我们最大的动力
+    </p>
+    </div>
+<div class='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8'>
+        <!-- 评价1 -->
+<div class='bg-gray-50 rounded-2xl p-8 shadow-md hover:shadow-lg transition-shadow duration-300'>
+        <div class='flex text-yellow-400 mb-4'>
+        <i class='fas fa-star'>
+        </i>
+<i class='fas fa-star'>
+        </i>
+<i class='fas fa-star'>
+        </i>
+<i class='fas fa-star'>
+        </i>
+<i class='fas fa-star'>
+        </i>
+    </div>
+<p class='text-gray-600 mb-6'>
+        "设计团队非常专业，能够准确理解我们的需求，最终的小火人形象超出了我们的预期，现在已经成为我们品牌的重要标志。"
+    </p>
+<div class='flex items-center'>
+        <img src='https://design.gemcoder.com/staticResource/echoAiSystemImages/3da4d9d14111eee2fb0965974a4eb41d.png' alt='客户头像' class='w-12 h-12 rounded-full mr-4'/>
+<div >
+        <h4 class='font-bold'>
+        张经理
+    </h4>
+<p class='text-sm text-gray-500'>
+        科技公司 · 市场总监
+    </p>
+    </div>
+    </div>
+    </div>
+<!-- 评价2 -->
+<div class='bg-gray-50 rounded-2xl p-8 shadow-md hover:shadow-lg transition-shadow duration-300'>
+        <div class='flex text-yellow-400 mb-4'>
+        <i class='fas fa-star'>
+        </i>
+<i class='fas fa-star'>
+        </i>
+<i class='fas fa-star'>
+        </i>
+<i class='fas fa-star'>
+        </i>
+<i class='fas fa-star'>
+        </i>
+    </div>
+<p class='text-gray-600 mb-6'>
+        "从沟通到交付，整个过程非常顺畅。设计师很有耐心，修改了多次直到我们满意。现在我们的抖音账号因为这个小火人形象粉丝增长了30%。"
+    </p>
+<div class='flex items-center'>
+        <img src='https://design.gemcoder.com/staticResource/echoAiSystemImages/7503237bea2a64ad715a77eb20daf86e.png' alt='客户头像' class='w-12 h-12 rounded-full mr-4'/>
+<div >
+        <h4 class='font-bold'>
+        李女士
+    </h4>
+<p class='text-sm text-gray-500'>
+        餐饮品牌 · 创始人
+    </p>
+    </div>
+    </div>
+    </div>
+<!-- 评价3 -->
+<div class='bg-gray-50 rounded-2xl p-8 shadow-md hover:shadow-lg transition-shadow duration-300'>
+        <div class='flex text-yellow-400 mb-4'>
+        <i class='fas fa-star'>
+        </i>
+<i class='fas fa-star'>
+        </i>
+<i class='fas fa-star'>
+        </i>
+<i class='fas fa-star'>
+        </i>
+<i class='fas fa-star-half-alt'>
+        </i>
+    </div>
+<p class='text-gray-600 mb-6'>
+        "动画短片的质量非常高，小火人的形象生动有趣，我们的用户都很喜欢。团队的响应速度很快，交付也很准时，强烈推荐！"
+    </p>
+<div class='flex items-center'>
+        <img src='https://design.gemcoder.com/staticResource/echoAiSystemImages/6161098347378f5c449f625d35a85f9a.png' alt='客户头像' class='w-12 h-12 rounded-full mr-4'/>
+<div >
+        <h4 class='font-bold'>
+        王老师
+    </h4>
+<p class='text-sm text-gray-500'>
+        教育机构 · 创始人
+    </p>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </section>
+<!-- [/MODULE] m7p_首页:客户评价 -- 展示三个不同行业客户的评价，包含评分、评价内容、客户头像、姓名和职位信息 -->
+<!-- [MODULE] n8q_首页:FAQ常见问题 -->
+<section class='py-20 bg-gray-50'>
+        <div class='container mx-auto px-4 sm:px-6 lg:px-8'>
+        <div class='text-center max-w-3xl mx-auto mb-16'>
+        <h2 class='text-[clamp(1.5rem,3vw,2.5rem)] font-bold mb-4'>
+        常见问题
+    </h2>
+<p class='text-lg text-gray-600'>
+        我们整理了客户最常问的问题，如果您有其他疑问，欢迎联系我们
+    </p>
+    </div>
+<div class='max-w-3xl mx-auto'>
+        <div class='space-y-4' id='faq-container'>
+        <!-- FAQ项目1 -->
+<div class='bg-white rounded-xl shadow-md overflow-hidden'>
+        <button class='faq-toggle w-full flex justify-between items-center p-6 text-left focus:outline-none' data-target='faq-1'>
+        <h3 class='text-xl font-bold'>
+        定制一个小火人形象需要多长时间？
+    </h3>
+<i class='fas fa-chevron-down text-primary transition-transform duration-300'>
+        </i>
+    </button>
+<div id='faq-1' class='faq-content hidden px-6 pb-6'>
+        <p class='text-gray-600'>
+        通常情况下，从需求沟通到最终交付，整个流程需要3-5个工作日。如果需要加急，我们提供24-48小时的加急服务，具体时间会根据设计复杂度和修改次数有所调整。
+    </p>
+    </div>
+    </div>
+<!-- FAQ项目2 -->
+<div class='bg-white rounded-xl shadow-md overflow-hidden'>
+        <button class='faq-toggle w-full flex justify-between items-center p-6 text-left focus:outline-none' data-target='faq-2'>
+        <h3 class='text-xl font-bold'>
+        定制费用包含哪些内容？
+    </h3>
+<i class='fas fa-chevron-down text-primary transition-transform duration-300'>
+        </i>
+    </button>
+<div id='faq-2' class='faq-content hidden px-6 pb-6'>
+        <p class='text-gray-600'>
+        基础定制费用包含：2-3套设计方案、最多3次修改、最终设计稿（包含AI、PSD等源文件）、多种格式的图片文件（PNG、JPG、SVG）。额外服务如动态表情包、动画短片等需另行计费。
+    </p>
+    </div>
+    </div>
+<!-- FAQ项目3 -->
+<div class='bg-white rounded-xl shadow-md overflow-hidden'>
+        <button class='faq-toggle w-full flex justify-between items-center p-6 text-left focus:outline-none' data-target='faq-3'>
+        <h3 class='text-xl font-bold'>
+        我需要提供哪些信息来开始定制？
+    </h3>
+<i class='fas fa-chevron-down text-primary transition-transform duration-300'>
+        </i>
+    </button>
+<div id='faq-3' class='faq-content hidden px-6 pb-6'>
+        <p class='text-gray-600'>
+        为了更好地理解您的需求，建议提供：品牌名称和简介、目标受众、喜欢的风格参考、偏好的颜色、需要避免的元素、小火人的应用场景等信息。信息越详细，设计方案越符合您的预期。
+    </p>
+    </div>
+    </div>
+<!-- FAQ项目4 -->
+<div class='bg-white rounded-xl shadow-md overflow-hidden'>
+        <button class='faq-toggle w-full flex justify-between items-center p-6 text-left focus:outline-none' data-target='faq-4'>
+        <h3 class='text-xl font-bold'>
+        版权归谁所有？
+    </h3>
+<i class='fas fa-chevron-down text-primary transition-transform duration-300'>
+        </i>
+    </button>
+<div id='faq-4' class='faq-content hidden px-6 pb-6'>
+        <p class='text-gray-600'>
+        完成最终付款后，小火人形象的全部版权将转移给您，您可以在任何商业和非商业场景中使用。我们保留在作品集和案例展示中使用该作品的权利，除非您特别要求不展示。
+    </p>
+    </div>
+    </div>
+<!-- FAQ项目5 -->
+<div class='bg-white rounded-xl shadow-md overflow-hidden'>
+        <button class='faq-toggle w-full flex justify-between items-center p-6 text-left focus:outline-none' data-target='faq-5'>
+        <h3 class='text-xl font-bold'>
+        如果对设计方案不满意怎么办？
+    </h3>
+<i class='fas fa-chevron-down text-primary transition-transform duration-300'>
+        </i>
+    </button>
+<div id='faq-5' class='faq-content hidden px-6 pb-6'>
+        <p class='text-gray-600'>
+        我们提供最多3次免费修改机会，如果仍不满意，我们可以重新设计一套方案。我们的目标是确保您对最终作品完全满意，因此会与您保持密切沟通，直到达到您的期望。
+    </p>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </section>
+<!-- [/MODULE] n8q_首页:FAQ常见问题 -- 展示五个常见问题及答案，包含可折叠的问答面板 -->
+<!-- [MODULE] o9r_首页:联系我们 -->
+<section class='py-20 bg-white'>
+        <div class='container mx-auto px-4 sm:px-6 lg:px-8'>
+        <div class='bg-gradient-brand rounded-3xl overflow-hidden'>
+        <div class='grid grid-cols-1 lg:grid-cols-2'>
+        <div class='p-12 lg:p-16 flex flex-col justify-center'>
+        <h2 class='text-[clamp(1.5rem,3vw,2.5rem)] font-bold text-white mb-4'>
+        准备好拥有专属小火人了吗？
+    </h2>
+<p class='text-white/90 text-lg mb-8 max-w-lg'>
+        填写表单，我们的设计师将在24小时内与您联系，为您提供专业的定制建议。
+    </p>
+<form class='space-y-6'>
+        <div class='grid grid-cols-1 sm:grid-cols-2 gap-6'>
+        <div >
+        <label for='name' class='block text-white mb-2 font-medium'>
+        姓名
+    </label>
+<input type='text' id='name' class='w-full px-4 py-3 rounded-xl bg-white/10 border border-white/20 text-white placeholder-white/60 focus:outline-none focus:ring-2 focus:ring-white/50' placeholder='请输入您的姓名'/>
+    </div>
+<div >
+        <label for='phone' class='block text-white mb-2 font-medium'>
+        电话
+    </label>
+<input type='tel' id='phone' class='w-full px-4 py-3 rounded-xl bg-white/10 border border-white/20 text-white placeholder-white/60 focus:outline-none focus:ring-2 focus:ring-white/50' placeholder='请输入您的电话'/>
+    </div>
+    </div>
+<div >
+        <label for='company' class='block text-white mb-2 font-medium'>
+        公司/品牌名称
+    </label>
+<input type='text' id='company' class='w-full px-4 py-3 rounded-xl bg-white/10 border border-white/20 text-white placeholder-white/60 focus:outline-none focus:ring-2 focus:ring-white/50' placeholder='请输入您的公司或品牌名称'/>
+    </div>
+<div >
+        <label for='需求' class='block text-white mb-2 font-medium'>
+        您的需求
+    </label>
+<textarea id='需求' rows='4' class='w-full px-4 py-3 rounded-xl bg-white/10 border border-white/20 text-white placeholder-white/60 focus:outline-none focus:ring-2 focus:ring-white/50' placeholder='请简要描述您的定制需求'>
+        </textarea>
+    </div>
+<button type='submit' class='w-full py-4 rounded-xl bg-white text-primary font-bold text-lg shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1'>
+        提交需求
+    </button>
+    </form>
+    </div>
+<div class='hidden lg:block relative'>
+        <img src='https://design.gemcoder.com/staticResource/echoAiSystemImages/813cf49c108ec01a97db6e0cd4439980.png' alt='小火人形象' class='absolute inset-0 w-full h-full object-cover'/>
+    </div>
+    </div>
+    </div>
+    </div>
+    </section>
+<!-- [/MODULE] o9r_首页:联系我们 -- 包含联系表单，用户可填写姓名、电话、公司/品牌名称和需求，提交后获取定制服务 -->
+    </main>
+<!-- [/MODULE] g1j_主内容区域 -- 包含首页的英雄区域、品牌客户、服务介绍、定制流程、案例展示、客户评价、FAQ常见问题和联系我们等模块 -->
+<!-- [MODULE] p0s_页脚 -->
+<footer class='bg-dark text-white pt-16 pb-8'>
+        <div class='container mx-auto px-4 sm:px-6 lg:px-8'>
+        <div class='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 mb-16'>
+        <!-- 公司信息 -->
+<div >
+        <div class='flex items-center mb-6'>
+        <div class='w-10 h-10 rounded-full bg-primary flex items-center justify-center text-white mr-3'>
+        <i class='fas fa-fire text-xl'>
+        </i>
+    </div>
+<span class='text-xl font-bold tracking-tight'>
+        小火人定制
+    </span>
+    </div>
+<p class='text-gray-400 mb-6'>
+        专业的抖音小火人形象定制服务，为您的品牌打造独特的视觉标识。
+    </p>
+<div class='flex space-x-4'>
+        <a href='javascript:void(0);' class='w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-primary transition-colors'>
+        <i class='fab fa-weixin'>
+        </i>
+    </a>
+<a href='javascript:void(0);' class='w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-primary transition-colors'>
+        <i class='fab fa-weibo'>
+        </i>
+    </a>
+<a href='javascript:void(0);' class='w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-primary transition-colors'>
+        <i class='fab fa-douyin'>
+        </i>
+    </a>
+<a href='javascript:void(0);' class='w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-primary transition-colors'>
+        <i class='fab fa-qq'>
+        </i>
+    </a>
+    </div>
+    </div>
+<!-- 快速链接 -->
+<div >
+        <h4 class='text-lg font-bold mb-6'>
+        快速链接
+    </h4>
+<ul class='space-y-3'>
+        <li >
+        <a href='javascript:void(0);' class='text-gray-400 hover:text-white transition-colors'>
+        首页
+    </a>
+    </li>
+<li >
+        <a href='javascript:void(0);' class='text-gray-400 hover:text-white transition-colors'>
+        服务介绍
+    </a>
+    </li>
+<li >
+        <a href='javascript:void(0);' class='text-gray-400 hover:text-white transition-colors'>
+        案例展示
+    </a>
+    </li>
+<li >
+        <a href='javascript:void(0);' class='text-gray-400 hover:text-white transition-colors'>
+        关于我们
+    </a>
+    </li>
+<li >
+        <a href='javascript:void(0);' class='text-gray-400 hover:text-white transition-colors'>
+        联系我们
+    </a>
+    </li>
+    </ul>
+    </div>
+<!-- 服务项目 -->
+<div >
+        <h4 class='text-lg font-bold mb-6'>
+        服务项目
+    </h4>
+<ul class='space-y-3'>
+        <li >
+        <a href='javascript:void(0);' class='text-gray-400 hover:text-white transition-colors'>
+        形象设计
+    </a>
+    </li>
+<li >
+        <a href='javascript:void(0);' class='text-gray-400 hover:text-white transition-colors'>
+        动态表情包
+    </a>
+    </li>
+<li >
+        <a href='javascript:void(0);' class='text-gray-400 hover:text-white transition-colors'>
+        动画短片
+    </a>
+    </li>
+<li >
+        <a href='javascript:void(0);' class='text-gray-400 hover:text-white transition-colors'>
+        品牌VI设计
+    </a>
+    </li>
+<li >
+        <a href='javascript:void(0);' class='text-gray-400 hover:text-white transition-colors'>
+        营销素材制作
+    </a>
+    </li>
+    </ul>
+    </div>
+<!-- 联系信息 -->
+<div >
+        <h4 class='text-lg font-bold mb-6'>
+        联系我们
+    </h4>
+<ul class='space-y-4'>
+        <li class='flex items-start'>
+        <i class='fas fa-map-marker-alt text-primary mt-1 mr-3'>
+        </i>
+<span class='text-gray-400'>
+        北京市朝阳区创意设计园区A座1001室
+    </span>
+    </li>
+<li class='flex items-center'>
+        <i class='fas fa-phone text-primary mr-3'>
+        </i>
+<span class='text-gray-400'>
+        400-123-4567
+    </span>
+    </li>
+<li class='flex items-center'>
+        <i class='fas fa-envelope text-primary mr-3'>
+        </i>
+<span class='text-gray-400'>
+        contact@xiaohuoren.com
+    </span>
+    </li>
+<li class='flex items-center'>
+        <i class='fas fa-clock text-primary mr-3'>
+        </i>
+<span class='text-gray-400'>
+        周一至周五 9:00-18:00
+    </span>
+    </li>
+    </ul>
+    </div>
+    </div>
+<div class='border-t border-gray-800 pt-8'>
+        <div class='flex flex-col md:flex-row justify-between items-center'>
+        <p class='text-gray-500 text-sm mb-4 md:mb-0'>
+        © 2023 小火人定制. 保留所有权利.
+    </p>
+<div class='flex space-x-6'>
+        <a href='javascript:void(0);' class='text-gray-500 hover:text-gray-300 text-sm'>
+        隐私政策
+    </a>
+<a href='javascript:void(0);' class='text-gray-500 hover:text-gray-300 text-sm'>
+        服务条款
+    </a>
+<a href='javascript:void(0);' class='text-gray-500 hover:text-gray-300 text-sm'>
+        网站地图
+    </a>
+    </div>
+    </div>
+    </div>
+    </div>
+    </footer>
+<!-- [/MODULE] p0s_页脚 -- 包含公司信息、快速链接、服务项目、联系信息和版权声明 -->
+<!-- [MODULE] q1t_回到顶部按钮 -->
+<button id='back-to-top' class='fixed bottom-8 right-8 w-12 h-12 rounded-full bg-primary text-white flex items-center justify-center shadow-lg opacity-0 invisible transition-all duration-300 hover:bg-primary/90'>
+        <i class='fas fa-arrow-up'>
+        </i>
+    </button>
+<!-- [/MODULE] q1t_回到顶部按钮 -- 点击可返回页面顶部 -->
+    </div>
+<!-- [/MODULE] a3f_页面容器 -- 包含整个网站的所有内容 -->
+<!-- [JSMOD] r2u_导航栏交互 -->
+<script id='navbar-script'>// 导航栏滚动效果
+var navbar = document.getElementById('navbar');
+var backToTop = document.getElementById('back-to-top');
+window.addEventListener('scroll', function () {
+  if (window.scrollY > 50) {
+    navbar.classList.add('bg-white', 'shadow-md');
+    navbar.classList.remove('bg-transparent');
+    backToTop.classList.remove('opacity-0', 'invisible');
+    backToTop.classList.add('opacity-100', 'visible');
+  } else {
+    navbar.classList.remove('bg-white', 'shadow-md');
+    navbar.classList.add('bg-transparent');
+    backToTop.classList.add('opacity-0', 'invisible');
+    backToTop.classList.remove('opacity-100', 'visible');
+  }
+});
+
+// 移动端菜单切换
+var mobileMenuButton = document.getElementById('mobile-menu-button');
+var mobileMenu = document.getElementById('mobile-menu');
+mobileMenuButton.addEventListener('click', function () {
+  mobileMenu.classList.toggle('hidden');
+});
+
+// 回到顶部功能
+backToTop.addEventListener('click', function () {
+  window.scrollTo({
+    top: 0,
+    behavior: 'smooth'
+  });
+});</script>
+<!-- [/JSMOD] r2u_导航栏交互 -- 处理导航栏滚动效果、移动端菜单切换和回到顶部功能 -->
+<!-- [JSMOD] s3v_FAQ交互 -->
+<script id='faq-script'>// FAQ折叠面板交互
+var faqToggles = document.querySelectorAll('.faq-toggle');
+faqToggles.forEach(function (toggle) {
+  toggle.addEventListener('click', function () {
+    var targetId = this.getAttribute('data-target');
+    var targetContent = document.getElementById(targetId);
+    var icon = this.querySelector('i');
+
+    // 关闭其他所有FAQ
+    document.querySelectorAll('.faq-content').forEach(function (content) {
+      if (content.id !== targetId) {
+        content.classList.add('hidden');
+        content.previousElementSibling.querySelector('i').classList.remove('rotate-180');
+      }
+    });
+
+    // 切换当前FAQ
+    targetContent.classList.toggle('hidden');
+    icon.classList.toggle('rotate-180');
+  });
+});</script>
+<!-- [/JSMOD] s3v_FAQ交互 -- 处理FAQ折叠面板的展开和收起功能 -->
+<!-- [JSMOD] t4w_平滑滚动 -->
+<script id='smooth-scroll-script'>// 平滑滚动到锚点
+document.querySelectorAll('a[href^="#"]').forEach(function (anchor) {
+  anchor.addEventListener('click', function (e) {
+    e.preventDefault();
+    var targetId = this.getAttribute('href');
+    if (targetId === '#') return;
+    var targetElement = document.querySelector(targetId);
+    if (targetElement) {
+      targetElement.scrollIntoView({
+        behavior: 'smooth'
+      });
+
+      // 如果是移动端菜单点击，关闭菜单
+      if (mobileMenu && !mobileMenu.classList.contains('hidden')) {
+        mobileMenu.classList.add('hidden');
+      }
+    }
+  });
+});</script>
+<!-- [/JSMOD] t4w_平滑滚动 -- 实现页面内锚点的平滑滚动效果 -->
+    </body>
+    </html>
